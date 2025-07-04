@@ -2,7 +2,7 @@ import { join } from 'upath';
 import fs from 'fs';
 import parser from 'yargs-parser';
 import { src } from '../paths.js';
-import nodeSass from 'node-sass';
+import nodeSass from 'sass';
 import gulpSass from 'gulp-sass';
 import tildeImporter from 'node-sass-tilde-importer';
 
